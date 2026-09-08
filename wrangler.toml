@@ -3,6 +3,10 @@
 name = "sewerlinerenewal-com-v1"
 compatibility_date = "2026-08-11"
 
+# Build before deploy (Workers Builds dashboard should also use: npm run build)
+[build]
+command = "npm run build"
+
 [assets]
 directory = "./dist"
 # Optional: handle SPA-style 404s if needed later
